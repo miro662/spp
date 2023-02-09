@@ -1,0 +1,19 @@
+As an developer, I want to create new social media integrations, so we can support as much social medias as possible
+As an user, I want to have access to a simple test platform, so I can see how our platform will work
+As an user, I want to log in, so I can use the platform
+As an user, I want to be able to create a post, so I can publish it
+As an user, I want to publish my post immeadetly, so everyone will see it ASAP
+As an user, I want to publish my post at given time, so it will be displayed when necessary
+
+As an administrator, I want to create an account for user, so they can use our platform
+As an user, I want to change my password so the administrator won't be able to know it
+As an user, I want to log out so I can safely use our platform on shared devices
+As an administrator, I want to create configurations of platforms, so I can safely enter sensitive data for them and use separate accounts
+As an administrator, I want to grant an access to configurations per-user, so only authenticated ones will be able to use them
+As an administrator, I want to grant an acesss to configuration for all users, so permission management will be much simpler
+As an user, I want to cancel publishing my post, so I can correct my mistake
+As an user, I want to edit my still unpublished post, so I can correct my mistake
+As an administrator, I want to cancel publishing post that is not published yet, so I can correct others' mistake
+As an administrator, I want to edit any post that is not published yet, so I can correct others' mistake
+As an user, I want to see a history of posts that I've published, so I get a feedback from our system
+As an user, I want to see links to posts that I've published, so I can see my posts
