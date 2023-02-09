@@ -1,0 +1,39 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+  - repo: local
+    types: [file, python]
+    hooks:
+      - id: flake8
+        name: flake8
+        language: system
+        entry: bash -c 'cd backend && exec flake8 .'
+        files: ^backend/
+  - repo: local
+    types: [file, python]
+    hooks:
+      - id: isort
+        name: isort
+        language: system
+        entry: bash -c 'cd backend && exec isort .'
+        files: ^backend/
+  - repo: local
+    types: [file, python]
+    hooks:
+      - id: black
+        name: black
+        language: system
+        entry: bash -c 'cd backend && exec black .'
+        files: ^backend/
+  - repo: local
+    types: [file, python]
+    hooks:
+      - id: mypy
+        name: mypy
+        language: system
+        entry: bash -c 'cd backend && exec mypy .'
+        files: ^backend/
