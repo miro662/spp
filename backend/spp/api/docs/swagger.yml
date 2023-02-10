@@ -11,4 +11,10 @@ paths:
     get:
       responses:
         "200":
-          description: OK
+          description: "A list of posts"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
