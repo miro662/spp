@@ -10,6 +10,9 @@ python = "^3.11"
 sqlalchemy = "^2.0.3"
 alembic = "^1.9.3"
 psycopg2-binary = "^2.9.5"
+flask = "^2.2.2"
+python-dotenv = "^0.21.1"
+connexion = {version = "^2.14.2", extras = ["swagger-ui"]}
 
 
 [tool.poetry.group.dev.dependencies]
@@ -26,6 +29,7 @@ profile = "black"
 
 [tool.mypy]
 exclude = ["spp/db/alembic/"]
+ignore_missing_imports = true
 
 [tool.flake8]
 max-line-length = 88
